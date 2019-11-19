@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+h1:hover {
+    text-transform: uppercase;
+}
+
+h4{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+label{
+    text-align: right;
+}
+
+.btn-container {
+    text-align: center;
+}
+

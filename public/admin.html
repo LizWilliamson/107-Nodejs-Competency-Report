@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Long+Cang|Mansalva&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/admin.css">
+    
+<title>Sole Mates Show Store Admin</title>
+</head>
+<body>
+    <h1>Sole Mates Shoe Store</h1>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Sole Mates</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse"         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Catalog </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Admin </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact </a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        
+
+        <div id="alert" class="hide item-saved">
+            <h6>Item Saved</h6>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+                <h2>Register Items to Sell</h2>
+                <form action="">
+
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Code:</label>
+                                <div class="col-5">
+                                    <input id="txtCode" type="text" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Title:</label>
+                                <div class="col-5">
+                                    <input id="txtTitle" type="text" class="form-control">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Price:</label>
+                                <div class="col-5">
+                                    <input id="txtPrice" type="number" min="0" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Description:</label>
+                                <div class="col-5">
+                                    <input id="txtDescription" type="text" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Category:</label>
+                                <div class="col-5">
+                                    <input id="txtCategory" type="text" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Rating:</label>
+                                <div class="col-5">
+                                    <input id="txtRating" type="number" min="0" max="5" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="form-group row">
+                                <label class="offset-1 col-3 col-form-label">Image:</label>
+                                <div class="col-5">
+                                    <input id="txtImage" type="text" class="form-control">
+                                </div>
+                            </div>
+                
+                            <div class="row">
+                                <div class="col btn-container">
+                                    <button id="btnSave" type="button" class="btn btn-info">Save Item</button>
+                                </div>
+                                
+                            </div>
+                            
+                </form>
+            </div>
+
+            <div class="col-4">
+                <h2>Incoming Messages</h2>
+                <ul id="messageList"></ul>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    
+    <script src="script/jquery-3.4.1.js"></script>
+    <script src="script/bootstrap.min.js"></script>
+    <script src="script/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+h1{
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    
+   
+}
+
+h1:hover{
+    text-transform: uppercase;
+}
+
+
+.catalog-container{
+    margin-top: 20px;
+    
+    
+}
+
+.item{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+    vertical-align: top;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+    
+}
+
+.item:hover{
+    border: 2px solid black;
+}
+
+.item img{
+    width: 230px;
+    height: 135px;
+}
+
+.item button{
+    margin-left: 80px;
+}
+.item button:hover{
+    transform: scale(1.2);
+}
+
+.item h4{
+    font-family: 'Long Cang', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.item h6{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.item p{
+    text-align: left;
+}

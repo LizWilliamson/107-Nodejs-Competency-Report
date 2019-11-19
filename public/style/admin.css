@@ -1,0 +1,64 @@
+h1, h2{
+    text-align: center;
+    color: #17a2b8;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+h1:hover {
+    text-transform: uppercase;
+}
+
+h2{
+    padding-top: 18px;
+}
+
+.col-8{
+    border-right: 1px solid grey;
+}
+
+#messageList{
+    list-style-type: none;
+    padding-left: 5px;
+}
+#messageList li{
+    margin: 5px 0px;
+    background-color: lightgrey;
+    padding: 5px 8px;
+    
+}
+#messageList li:hover{
+    border: 1px solid #17a2b8;
+}
+label{
+    text-align: right;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.item-saved{
+    background-color: #17a2b8;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.item-saved h6{
+    color: white;
+    text-align: center;
+}
